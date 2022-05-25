@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+  background: radial-gradient(#2dbd6e, #a6f77b);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+}
+
+.center h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+.center form {
+  padding: 0 40px;
+}
+
+.social-login {
+  /* twiter facebook alanı*/
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+.social-login-twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  /* standart buton yüksekliği*/
+  background-color: #1da1f2;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.social-login-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  background-color: #4267b2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+form .field {
+  position: relative;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .field .icon {
+  /* icon css i*/
+  display: flex;
+
+  background-color: #adadad;
+  color: white;
+}
+
+.field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.select {
+  position: relative;
+  border-bottom: 2px #adadad;
+  margin: 30px;
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  justify-content:center;
+}
+
+.icon {
+  padding: 13px;
+}
